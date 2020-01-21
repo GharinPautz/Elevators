@@ -166,24 +166,24 @@ public class ElevatorSimulator {
             // set the new floor elevator is on
             elevatorFloors.set(elevatorNumber - 1, (floor(elevatorNumber) + floorsChange));
 
-
+            // if the floor goes from a positive value to a negative value
+            // accounting for no floor zero
             endingFloor = elevatorFloors.get(elevatorNumber - 1);
             if (startingFloor < 0 && endingFloor > 0) {
                 elevatorFloors.set(elevatorNumber - 1, (floor(elevatorNumber) + 1));
             }
-
         }
 
         else {
             elevatorFloors.set(elevatorNumber - 1, (floor(elevatorNumber) - floorsChange));
 
             // if the floor goes from a negative value to a positive value
+            // accounting for no floor zero
             endingFloor = elevatorFloors.get(elevatorNumber - 1);
             if (startingFloor > 0 && endingFloor < 0) {
                 elevatorFloors.set(elevatorNumber - 1, (floor(elevatorNumber) - 1));
             }
         }
-
     }
 
     /**

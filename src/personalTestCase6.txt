@@ -1,0 +1,10 @@
+elevators 5
+
+up 1 97
+down 1 23
+up 2 34
+down 2 2
+up 3 29
+up 3 45
+down 4 2
+up 4 100

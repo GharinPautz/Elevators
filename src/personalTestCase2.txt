@@ -1,0 +1,4 @@
+elevators 2
+
+up 2
+down 2 3
