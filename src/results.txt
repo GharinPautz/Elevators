@@ -1,0 +1,62 @@
+
+This file contains the output that should be produced by HW1 for each
+test input file given (including the error inputs). Note that the
+output is what is between, but not including, the dashed lines. In
+other words, the dashed lines are not part of the output.
+
+--------------- t1.txt output ---------------
+Elevator 1 is on floor 2
+Elevator 2 is on floor 5
+Elevator 3 is on floor 2
+---------------------------------------------
+
+--------------- t2.txt output ---------------
+Elevator 1 is on floor 1
+Elevator 2 is on floor 1
+---------------------------------------------
+
+--------------- t3.txt output ---------------
+Elevator 1 is on floor 2
+Elevator 2 is on floor 1
+---------------------------------------------
+
+--------------- t4.txt output ---------------
+---------------------------------------------
+
+--------------- t5.txt output ---------------
+Elevator 1 is on floor 2
+Elevator 2 is on floor 1
+---------------------------------------------
+
+--------------- t6.txt output ---------------
+Elevator 1 is on floor 3
+Elevator 2 is on floor 1
+Elevator 3 is on floor -2
+Elevator 4 is on floor -4
+---------------------------------------------
+(*) Note that there is no floor 0
+
+
+--------------- e1.txt output ---------------
+Error: invalid elevator number '2'
+---------------------------------------------
+
+--------------- e2.txt output ---------------
+Error: invalid number of elevators '-1'
+---------------------------------------------
+
+--------------- e3.txt output ---------------
+Error: invalid number of floors '-2'
+---------------------------------------------
+
+--------------- e4.txt output ---------------
+Error: expecting integer, found '2.5'
+---------------------------------------------
+
+--------------- e5.txt output ---------------
+Error: expecting elevators, found 'elevator'
+---------------------------------------------
+
+--------------- e6.txt output ---------------
+Error: expecting 'up' or 'down', found 'up1'
+---------------------------------------------
